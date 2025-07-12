@@ -1,0 +1,351 @@
+*{
+  font-family: "Alegreya Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 85%;
+  margin: auto;
+}
+div img{
+  width: 100%;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+/*navbar*/
+.navbar{
+  padding: 10px 0px;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.navbar img{
+  float: left;
+  width: 200px;
+}
+.navbar ul{
+  float: right;
+  padding-top: 20px;
+}
+.navbar ul li{
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 15px;
+}
+.navbar ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+/* header-content*/
+#header{
+ min-height: 100vh;
+ background-image: url("./images/drew-coffman-1872.jpg");
+ background-size: cover;
+ background-position: center;
+ overflow: auto;
+}
+.header-content{
+  text-align: center;
+  margin-top: 150px;
+  color: white;
+  font-weight: 400;
+}
+.header-content .fparagraph{
+    font-size: 20px;
+}
+h1{
+    font-size: 76px;
+    margin-bottom: 20px;
+}
+.header-content .sparagraph{
+    font-size: 24px;
+}
+
+.header-content button{
+  padding: 15px 25px;
+  margin: 50px 10px;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+}
+.header-content .btn1{
+  background-color: #8E7754;
+  border: none;
+}
+.header-content .btn2{
+  background-color:transparent;
+  border: 2px solid white;
+}
+  /* Wo we are?*/
+  .width-50{
+    width: 50%;
+  }
+  .width-45{
+    width: 45%;
+  }
+  .padding-section{
+    padding-top: 90px;
+    padding-bottom: 60px;
+  }
+  .elements-section{
+    padding-top: 50px;
+  }
+.elements-section h2{
+   font-size: 30px;
+   font-weight: 400;
+   margin-right: 50px;
+   margin-bottom: 30px;
+}
+
+.elements-section p{
+   font-size: 17.5px;
+    line-height: 31.62px;
+    font-weight: 400; 
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .icons{
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+  p.icons-paragraph{
+    margin: 10px 0 10px 0;
+    font-weight: 400; 
+    opacity: 0.8; 
+    color: #333;
+  }
+  .icon-mixdiv{
+    margin-bottom: 10px;
+  }
+
+/*Our location*/
+.main-section2-heading h2{
+  margin-bottom: 25px;
+  line-height:35.19px;
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  margin-block-end: 25px;
+}
+.main-section2-heading{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.main-section2-heading p{
+  margin-bottom: 20px;
+  line-height: 31.62px;
+  font-size: 17.5px;
+  font-weight: 400;
+  color: #686868;
+  font-family: "Alegreya Sans";
+}
+.backagroundcolor-ourlocation{
+  background-color: #F8F8F8;
+}
+
+/*______________________________________________________*/
+
+/*Our Baking*/
+.Baking-section{
+  padding: 70px 36px 50px 36px;
+  background-attachment: scroll;
+}
+/*Baking-haed*/
+.Baking-head{
+  padding:10px 0px 30px 0px;
+  text-align: center;
+}
+.Baking-head h2{
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  line-height: 41.4px;
+}
+.Baking-head p{
+  font-size: 17px;
+  font-weight: 400;
+  color:#888;
+  margin-top: 17px;
+  line-height:31.62px
+}
+/*Baking-body*/
+.Baking-body .Baking-item img{
+  width: 100%;
+}
+.Baking-body .Baking-item{
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  padding: 18px;
+}
+.Baking-body .Baking-item .content-item{
+  padding: 20px;
+}
+.Baking-body .Baking-item .content-item h3{
+  color: rgb(48, 48, 48);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31.62px;
+  margin-bottom: 15px;
+}
+.Baking-body .Baking-item .content-item p{
+  color: rgb(101, 101, 101);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  line-height: 31.62px;
+}
+
+.contact-icon{
+  background-color:#8E7754;
+}
+
+.backagroundcolor-Contact{
+  background-color: #F8F8F8;
+}
+.contact-section{
+  padding: 85px 3.4px 85px 3.6px;
+}
+iframe{
+  margin-top: 30px;
+}
+
+/*___________________________________________________________*/
+/*footer*/
+.footer {
+  background-color: #403D38;
+  padding: 60px 0px 52px 0px;
+  color: #d6d6d6;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 71.6px;
+  padding: 0 15.938px;
+}
+
+.footer-section {
+  padding: 0 16px;
+  min-width: 220px;
+  max-width: 25%;
+}
+ul{
+ list-style: none;
+}
+.footer-section h4 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.footer-section p,li{
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height:29.76px
+}
+
+.footer-list li {
+  padding-bottom: 6px;
+  margin-bottom: 6px;
+  line-height: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-list li:last-child {
+  border-bottom: none;
+}
+.footer-list li::before {
+  content: '› ';
+  color: #ccc;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.contact-details-icon li {
+  position: relative;
+  padding-left: 38px;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+}
+
+.contact-details-icon li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact-details-icon li.location::before {
+  background-image: url('./images/Icons/location.png');
+}
+.contact-details-icon li.phone::before {
+  background-image: url('./images/Icons/phone-gray.png');
+}
+.contact-details-icon li.mail::before {
+  background-image: url('./images/Icons/email-solid.png');
+}
+.contact-details-icon li.web::before {
+  background-image: url('./images/Icons/earth.png');
+}
+/*fooooottttaaaar boooottoooom*/
+.footer-bottom {
+  text-align: center;
+  background-color: #353330;
+  padding: 30px 20px; 
+}
+.footer-logo {
+  height: auto; 
+  margin-bottom: 10px;
+  width: 350px;
+}
+.footer-bottom p {
+  margin: 10px 0;
+  opacity: 0.7;
+}
+
+.social-icons{
+  margin-top: 32px;
+}
+.social-icons a {
+display: inline-block;
+margin: 0 3px;
+width: 40px;
+height: 40px;
+border-radius: 50%;              
+background-color: #4b4743;   
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  transition: 0.3s ease;
+}
+.social-icons img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+/*font family*/
+.alegreya-font {
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
